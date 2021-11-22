@@ -1,0 +1,77 @@
+:root {
+	--white: #fff;
+	--black: #272928;
+	--default: #fdfcdc;
+	--primary: #00afb9;
+	--secondary: #fed9b7;
+	--danger: #f07167;
+	--confirm: #0081a7;
+}
+
+button {
+	border: none;
+	padding: 12px;
+	border-radius: 8px;
+}
+
+button:hover,
+button:focus {
+	filter: grayscale(0.8);
+}
+
+.outline {
+	background-color: transparent !important;
+	color: var(--black) !important;
+}
+
+.text {
+	padding: 0;
+	border: none !important;
+	background-color: transparent !important;
+	color: var(--black) !important;
+	box-shadow: none !important;
+}
+
+.default {
+	border: 2px solid var(--default);
+	background-color: var(--default);
+	color: var(--black);
+}
+
+.primary {
+	border: 2px solid var(--primary);
+	background-color: var(--primary);
+	color: var(--white);
+}
+
+.secondary {
+	border: 2px solid var(--secondary);
+	background-color: var(--secondary);
+	color: var(--black);
+}
+
+.danger {
+	border: 2px solid var(--danger);
+	background-color: var(--danger);
+	color: var(--white);
+}
+
+.confirm {
+	border: 2px solid var(--confirm);
+	background-color: var(--confirm);
+	color: var(--white);
+}
+
+.shadow {
+	-webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+	-moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+	box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.medium {
+	padding: 18px;
+}
+
+.big {
+	padding: 24px;
+}
