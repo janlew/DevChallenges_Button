@@ -5,51 +5,198 @@ const App = () => {
 	return (
 		<div style={{ padding: "50px" }}>
 			<div style={{ display: "flex", gap: "10px" }}>
+				<Button text="Default" type="normal" color="default" size="small" />
+				<Button text="Primary" type="normal" color="primary" size="small" />
+				<Button text="Secondary" type="normal" color="secondary" size="small" />
+				<Button text="Danger" type="normal" color="danger" size="small" />
+				<Button text="Confirm" type="normal" color="confirm" size="small" />
 				<Button
 					text="Default"
-					disableShadow={false}
-					disabled={false}
+					type="normal"
+					disableShadow={true}
 					color="default"
 					size="small"
 				/>
 				<Button
 					text="Primary"
-					disableShadow={false}
-					disabled={false}
+					type="normal"
+					disableShadow={true}
 					color="primary"
 					size="small"
 				/>
 				<Button
 					text="Secondary"
-					disableShadow={false}
-					disabled={false}
+					type="normal"
+					disableShadow={true}
 					color="secondary"
 					size="small"
 				/>
 				<Button
 					text="Danger"
-					disableShadow={false}
-					disabled={false}
+					type="normal"
+					disableShadow={true}
 					color="danger"
 					size="small"
 				/>
 				<Button
 					text="Confirm"
-					disableShadow={false}
-					disabled={false}
+					type="normal"
+					disableShadow={true}
 					color="confirm"
 					size="small"
 				/>
 			</div>
-			<div style={{ display: "flex", gap: "10px" }}>
+			<div style={{ display: "flex", gap: "75px", marginTop: "15px" }}>
 				<Button
 					text="Default"
-					disableShadow={false}
-					disabled={false}
+					type="normal"
 					color="default"
 					size="small"
-					startIcon
+					startIcon="done"
 				/>
+				<Button
+					text="Default"
+					type="normal"
+					color="default"
+					size="small"
+					startIcon="language"
+				/>
+				<Button
+					text="Default"
+					type="normal"
+					color="default"
+					size="small"
+					startIcon="lightbulb"
+				/>
+				<Button
+					text="Default"
+					type="normal"
+					color="default"
+					size="small"
+					startIcon="build"
+				/>
+				<Button
+					text="Default"
+					type="normal"
+					color="default"
+					size="small"
+					startIcon="room"
+				/>
+			</div>
+			<div style={{ display: "flex", gap: "75px", marginTop: "15px" }}>
+				<Button
+					text="Default"
+					type="normal"
+					color="default"
+					size="small"
+					endIcon="done"
+				/>
+				<Button
+					text="Default"
+					type="normal"
+					color="default"
+					size="small"
+					endIcon="language"
+				/>
+				<Button
+					text="Default"
+					type="normal"
+					color="default"
+					size="small"
+					endIcon="lightbulb"
+				/>
+				<Button
+					text="Default"
+					type="normal"
+					color="default"
+					size="small"
+					endIcon="build"
+				/>
+				<Button
+					text="Default"
+					type="normal"
+					color="default"
+					size="small"
+					endIcon="room"
+				/>
+			</div>
+			<div style={{ display: "flex", gap: "15px", marginTop: "15px" }}>
+				<Button
+					text="Default"
+					type="outline"
+					disableShadow={true}
+					color="danger"
+					size="small"
+				/>
+				<Button
+					text="Default"
+					type="outline"
+					disableShadow={true}
+					color="primary"
+					size="small"
+				/>
+				<Button
+					text="Default"
+					type="outline"
+					disableShadow={true}
+					disabled={true}
+					color="danger"
+					size="small"
+				/>
+				<Button
+					text="Default"
+					type="outline"
+					disableShadow={true}
+					disabled={true}
+					color="primary"
+					size="small"
+				/>
+			</div>
+			<div style={{ display: "flex", gap: "15px", marginTop: "15px" }}>
+				<Button
+					text="Default"
+					type="text"
+					disableShadow={true}
+					color="danger"
+					size="small"
+				/>
+				<Button
+					text="Default"
+					type="text"
+					disableShadow={true}
+					disabled={true}
+					color="primary"
+					size="small"
+				/>
+			</div>
+			<div style={{ display: "flex", gap: "15px", marginTop: "15px" }}>
+				<div>
+					<Button
+						text="Default"
+						type="normal"
+						disableShadow={true}
+						color="primary"
+						size="small"
+					/>
+				</div>
+				<div>
+					<Button
+						text="Default"
+						type="normal"
+						disableShadow={true}
+						color="primary"
+						size="medium"
+					/>
+				</div>
+				<div>
+					<Button
+						text="Default"
+						type="normal"
+						disableShadow={true}
+						color="primary"
+						size="big"
+					/>
+				</div>
 			</div>
 		</div>
 	);

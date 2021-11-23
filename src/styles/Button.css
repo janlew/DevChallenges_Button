@@ -19,17 +19,38 @@ button:focus {
 	filter: grayscale(0.8);
 }
 
+button:disabled {
+	opacity: 0.6;
+}
+button:disabled:hover {
+	cursor: not-allowed;
+}
+
+.icon-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 14px;
+}
+
 .outline {
 	background-color: transparent !important;
 	color: var(--black) !important;
 }
+.outline:hover,
+.outline:focus {
+	background-color: lightcyan !important;
+}
 
 .text {
-	padding: 0;
+	padding: 10px;
 	border: none !important;
 	background-color: transparent !important;
 	color: var(--black) !important;
 	box-shadow: none !important;
+}
+.text:hover {
+	background-color: lightpink !important;
 }
 
 .default {
@@ -63,9 +84,8 @@ button:focus {
 }
 
 .shadow {
-	-webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
-	-moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
-	box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+	-webkit-box-shadow: 2px 3px 20px -7px rgba(0, 0, 0, 0.88);
+	box-shadow: 2px 3px 20px -7px rgba(0, 0, 0, 0.88);
 }
 
 .medium {
